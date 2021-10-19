@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>Private Readonly Property</Title>
+      <Shortcut>propr</Shortcut>
+      <Description>Creates a private readonly property</Description>
+      <Author>Alexandre Santiago</Author>
+    </Header>
+    <Snippet>
+		<Declarations>
+			<Literal>
+				<ID>Type</ID>
+				<ToolTip>Type</ToolTip>
+				<Default>string</Default>
+			</Literal>
+			<Literal>
+				<ID>Name</ID>
+				<ToolTip>Name</ToolTip>
+				<Default>_property</Default>
+			</Literal>
+		</Declarations>
+      <Code Language="csharp"><![CDATA[private readonly $Type$ $Name$;]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
